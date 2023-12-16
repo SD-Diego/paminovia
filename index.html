@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRIMER AÑITO UWU</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon-page.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="title">
+          <a href="#">
+            <h1>FELIZ 1ER AÑO MI AMOR<3333</h1>
+          </a>
+        </div>
+        <button class="open-button" id="open-button">Ver mensajito uwu</button>
+        <div class="window-background" id="window-background">
+          <div class="window-container" id="window-container">
+            <button class="close-button" id="close-button">X</button>
+            <div class="container-message">
+              <h2>Hola</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+                aut voluptate perferendis quia, officia nam accusamus minima
+                rerum recusandae. Dolores at ullam assumenda natus incidunt
+                repellendus ratione distinctio. Officia, laboriosam.
+              </p>
+            </div>
+            <div class="container-photos">
+              <img src="img/message1.jpg" alt="" class="photos-message-1" />
+              <img src="img/message2.jpg" alt="" class="photos-message-2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-main">
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid1.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>hola dsadasdasd</h3>
+            <p>29/10/2023</p>
+          </div> 
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid2.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Cuando comimos pene por el kennedy</h3>
+            <p>25/01/2023</p>
+          </div>
+        </div>
+
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid10.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Foto en mi casita</h3>
+            <p>12/11/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid4.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Cuando fuiste a la playita</h3>
+            <p>04/07/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid9.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Creo que en mall del sur jksjks</h3>
+            <p>25/06/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid5.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Edit de tu cum uwu</h3>
+            <p>02/06/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid8.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>En el tunelcito de luces del mall</h3>
+            <p>11/01/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid11.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>No se donde ksjks</h3>
+            <p>01/10/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid6.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>En tu casita uwu</h3>
+            <p>07/05/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid13.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>La primera vez que nos vimos</h3>
+            <p>29/12/2022</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid3.jpg" alt="" class="grid-item" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>En tu casa comiendo maní uwu</h3>
+            <p>15/10/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid7.jpg" alt="" class="grid-item" id="img-7"/>
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>Edit que te hice uwu</h3>
+            <p>04/01/2023</p>
+          </div>
+        </div>
+        <div class="container-img" onclick="capturarSrc(event)">
+          <img src="img/grid12.jpg" alt="" class="grid-item" id="img-12" />
+          <div class="overlay"></div>
+          <div class="content">
+            <h3>En el parque de las aguas</h3>
+            <p>12/03/2023</p>
+          </div>
+        </div>
+
+        <div class="lightbox-background">
+          <span>&times;</span>
+          <img src="img/grid13.jpg" alt="" />
+        </div>
+
+        <script src="js/main.js"></script>
+      </div>
+    </main>
+  </body>
+</html>
