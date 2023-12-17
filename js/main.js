@@ -37,10 +37,11 @@ function capturarSrc(event) {
     document.querySelector('.lightbox-background').style.display='grid';
     document.querySelector('.lightbox-background img').src = srcImagen;
 }
+/*
 document.querySelector('.lightbox-background').onclick = () =>{
     document.querySelector('.lightbox-background').style.display='none';
 }
-
+*/
 document.querySelector('.lightbox-background span').onclick = () =>{
     document.querySelector('.lightbox-background').style.display='none';
 }
